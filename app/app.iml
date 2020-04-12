@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.6.2" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.6.2" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="false" externalProjectId=":app">
+        <sourceSets>
+          <sourceSet>2048.app.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.71/4e50c67bac9e76cbdf5ab9255eeb74f7bf1c34f1/kotlin-android-extensions-runtime-1.3.71.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.71/898273189ad22779da6bed88ded39b14cb5fd432/kotlin-stdlib-1.3.71.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.71/e71c3fef58e26affeb03d675e91fd8abdd44aa7b/kotlin-stdlib-common-1.3.71.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/5bcd1e8a754c62641ce7f7e759e1ef99/appcompat-v7-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/d4e10ef08314f77b41e5335b267771ca/support-fragment-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/4e180f718da53e1b6c8dee791bf04641/animated-vector-drawable-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/758fe17c2475122c46c6ecd1ea3f4125/support-core-ui-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/cc3bac9257936b452d020abb8c98c380/support-core-utils-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/b282d9be3b19cfab4bb827dca36fc03a/support-vector-drawable-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/bbf8c6351a1268a3f15bffd23419fc8a/loader-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/95dada6868dc3dbcde0a1c30199674af/viewpager-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/522c8c1d98991110c774a52d05da5bf0/coordinatorlayout-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/3f693d96950dd4046e1053864b32f40a/drawerlayout-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/c15dde19d91979b9cd78d2d6991f6c29/slidingpanelayout-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/35f3cf55ac28a850221f16028fd888cc/customview-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/95248c27114433d5bc20ce458d3f1115/swiperefreshlayout-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/00a682062b1f1f8fcae3c2649322dadd/asynclayoutinflater-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/e6a968024a740e9fc585e5c3bdaa44db/support-compat-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/502b5c5c522ae4cbbd87a54f621cd661/versionedparcelable-28.0.0-api.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/328a8895ba1b20ccf7f2542a6fde38bc/cursoradapter-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/224ebed096f5a4a368553fda9485e05c/runtime-1.1.1-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/982937dfa55d9889d2391de2d09692a5/documentfile-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/411d443929dd9cc83830e17a2cde460f/localbroadcastmanager-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/bd8871e50bb85f53350867be2c5bae89/print-28.0.0-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/ea08fdd1f1bd5097ca29dfa86d0e2f1b/viewmodel-1.1.1-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/16850e6f11da258034f15487583ffd8f/livedata-1.1.1-api.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/9fe239811384d965ea2dc43851ae41a2/livedata-core-1.1.1-api.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/216edaa700a028ad666e9f048fe3ce53/runtime-1.1.1-api.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/04f65d0f5867fffa7c68e6f63221e0cd/interpolator-28.0.0-api.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/saba/.gradle/caches/transforms-2/files-2.1/a57c01d788cd9daa9333c6caa277c636/constraint-layout-1.1.3-api.jar:/Users/saba/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/users/saba/library/android/sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.71/ea43e0e563e1915ea845a482fd6f31a948386ab9/kotlin-android-extensions-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.71/df961ae412445788a38170e27f90bad4e0824153/kotlin-compiler-embeddable-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.3.71/9729c4da2369c4cb84514297f6c652e05dc49d6b/kotlin-daemon-embeddable-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.71/fca74670d8e6906a3241b3cf3732409ca77b2508/kotlin-reflect-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.71/7f5522e7a9d1736fabfdb4335630f64504ce8f20/kotlin-script-runtime-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.71/80b8eb0986d1391e6a1dcf9aba968d59165dc4f/kotlin-scripting-common-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.71/ee1ba4f199415255ea6ea55cc5dc41856b2729fd/kotlin-scripting-jvm-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.71/e71c3fef58e26affeb03d675e91fd8abdd44aa7b/kotlin-stdlib-common-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.71/898273189ad22779da6bed88ded39b14cb5fd432/kotlin-stdlib-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.2.1/3839faf625f4197acaeceeb6da000f011a2acb49/kotlinx-coroutines-core-1.2.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>

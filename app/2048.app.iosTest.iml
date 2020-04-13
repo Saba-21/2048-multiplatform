@@ -6,8 +6,8 @@
         <dependsOnModuleNames>app_commonTest</dependsOnModuleNames>
         <sourceSets>
           <sourceSet>2048.app.iosMain</sourceSet>
-          <sourceSet>2048.app.commonTest</sourceSet>
           <sourceSet>2048.app.commonMain</sourceSet>
+          <sourceSet>2048.app.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>iosTest|:app:iosTest|ios</externalSystemTestTasks>

@@ -10,28 +10,18 @@ import kotlin.math.abs
 
 class MainActivity : AppCompatActivity() {
 
+    private val game = Game()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val game = Game()
         setValues(game.getBoard())
         board.getSwipeDirection(
-            left = {
-                game.moveLeft()
-                setValues(game.getBoard())
-            },
-            right = {
-                game.moveRight()
-                setValues(game.getBoard())
-            },
-            top = {
-                game.moveTop()
-                setValues(game.getBoard())
-            },
-            bottom = {
-                game.moveBottom()
+            left = game::moveLeft,
+            right = game::moveRight,
+            top = game::moveTop,
+            bottom = game::moveBottom,
+            apply = {
                 setValues(game.getBoard())
             }
         )
@@ -47,7 +37,8 @@ class MainActivity : AppCompatActivity() {
         top: () -> Unit,
         bottom: () -> Unit,
         left: () -> Unit,
-        right: () -> Unit
+        right: () -> Unit,
+        apply: () -> Unit
     ) {
         var startX = 0f
         var endX = 0f
@@ -60,6 +51,7 @@ class MainActivity : AppCompatActivity() {
                 (endX - startX < 0 && abs(endX - startX) > abs(endY - startY)) -> left()
                 (endY - startY < 0 && abs(endX - startX) < abs(endY - startY)) -> top()
             }
+            apply()
         }
         setOnTouchListener { v, event ->
             if (event.action == MotionEvent.ACTION_DOWN) {
